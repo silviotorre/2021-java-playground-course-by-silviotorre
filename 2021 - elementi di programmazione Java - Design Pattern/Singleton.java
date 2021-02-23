@@ -47,13 +47,13 @@ final class Singleton {
     } 
     public Object clone() throws CloneNotSupportedException { 
         //Gestiamo internamente il tentativo di clonare l'oggetto
-        thrownew CloneNotSupportedException(); 
+        throw new CloneNotSupportedException(); 
     } 
-    publicvoid method1() {
+    public void method1() {
         //metodo 1
     } 
 
-    publicvoid method2() { 
+    public void method2() { 
         //metodo 2
     } 
-... }
+}
