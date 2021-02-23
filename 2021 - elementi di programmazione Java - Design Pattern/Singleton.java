@@ -37,10 +37,10 @@
 #**********************************************/
 
 
-finalclass Singleton { 
-    privatestatic Singleton m_instance = new Singleton(); 
-    publicstatic Singleton getInstance() { 
-        return m_istance; 
+final class Singleton { 
+    private static Singleton m_instance = new Singleton(); 
+    public static Singleton getInstance() { 
+        return m_instance; 
     } 
     private Singleton() { 
 
