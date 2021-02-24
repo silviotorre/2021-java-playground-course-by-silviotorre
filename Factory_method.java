@@ -24,6 +24,6 @@ interface AbstractObject {
     AbstractObject createObject() { 
     return (AbstractObject)new ConcreteObject1();
         } 
-    // somewhere in the code 
+        }
     
-    //Creator pCreator = new Creator1();
+    // Creator pCreator = new Creator1();
