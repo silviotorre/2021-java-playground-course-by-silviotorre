@@ -14,7 +14,10 @@ public class L1 {
         // log messages using log(Level level, String msg) 
         logger.log(Level.INFO, "logging: {0} ","This is message 1"); 
         logger.log(Level.WARNING, "This is message 2"); 
-        logger.info("This also \nis info");
+        logger.info("This in next line also \nis an info");
+        logger.log(Level.SEVERE, 
+                   new RuntimeException("Error"), 
+                   StrSupplier); 
     } 
 
 }
