@@ -15,7 +15,7 @@ public class L1 {
         logger.log(Level.INFO, "This is message 1"); 
         logger.log(Level.WARNING, "This is message 2"); 
         logger.info("This also is info");
-        logger.finer("This is finer");
+        logger.log(Level.FINE,"This is fine");
     } 
 
 }
