@@ -13,10 +13,11 @@ public class MapCompute {
         */
 
         // HashMap godereccia
-        Map<String, Integer> map = new HashMap<>()
-                .withValue("Key3",23)
-                .withValue("Key4",33)
-                .withValue("Key5",43);
+        Map<String, Integer> map = new HashMap<>(){{
+                put("Key3",23);
+                put("Key4",33);
+                put("Key5",43);
+            }};     
 
         // print map details 
         System.out.println("Map: " + map); 
