@@ -10,6 +10,9 @@ public class L1 {
         Logger logger 
             = Logger.getLogger( 
                 L1.class.getName()); 
+                
+        Supplier<String> StrSupplier 
+            = () -> new String("Logger logs"); 
   
         // log messages using log(Level level, String msg) 
         logger.log(Level.INFO, "logging: {0} ","This is message 1"); 
