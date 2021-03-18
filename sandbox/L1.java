@@ -1,5 +1,6 @@
 import java.util.logging.Level; 
 import java.util.logging.Logger; 
+import java.util.function.Supplier; 
   
 public class L1 { 
   
@@ -19,7 +20,7 @@ public class L1 {
         logger.log(Level.WARNING, "This is message 2"); 
         logger.info("This in next line also \nis an info");
         logger.log(Level.SEVERE, 
-                   new RuntimeException("Error"), 
+                   new RuntimeException("Dont'panic"), 
                    StrSupplier); 
     } 
 
