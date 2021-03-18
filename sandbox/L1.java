@@ -12,10 +12,9 @@ public class L1 {
                 L1.class.getName()); 
   
         // log messages using log(Level level, String msg) 
-        logger.log(Level.INFO, "This is message 1"); 
+        logger.log(Level.INFO, "logging: {0} ","This is message 1"); 
         logger.log(Level.WARNING, "This is message 2"); 
-        logger.info("This also is info");
-        logger.log(Level.FINE,"This is fine");
+        logger.info("This also \nis info");
     } 
 
 }
