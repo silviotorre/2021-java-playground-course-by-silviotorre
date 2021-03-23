@@ -38,6 +38,8 @@ public class Departement {
     }
 
 
-    
+    public static void main(String[] args) {
+        // business methods
+    }
     
 }
