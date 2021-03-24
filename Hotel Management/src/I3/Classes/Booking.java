@@ -1,3 +1,20 @@
+/**
+ * Copyright 2021 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
 package I3.Classes;
 
 import java.util.ArrayList;
@@ -12,7 +29,8 @@ public class Booking {
    // int CONFIRMED = 0;
    // int RESERVED = 1;   
     
-    // required Object
+   
+   // required Object
     
     private UserInfo customer;
     ArrayList<Room> rooms;
@@ -45,7 +63,6 @@ public class Booking {
         this.booking_id = booking_id;
     }
 
-   
     
     public String getBookingType() {
         return bookingType;
@@ -54,8 +71,6 @@ public class Booking {
     public void setBookingType(String bookingType) {
         this.bookingType = bookingType;
     }
-    
-    
     
     
     public void addRoom(String roomNo)
