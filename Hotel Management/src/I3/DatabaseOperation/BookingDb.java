@@ -65,7 +65,17 @@ public class BookingDb {
 
     }
 
-   
+    public ResultSet getBookingInformation() {
+        try {
+            String query = "select * from booking";
+            statement = conn.prepareStatement(query);
+            result = statement.executeQuery();
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, ex.toString() + "\n error coming from returning all booking DB Operation");
+        }
+
+        return result;
+    }
 
     public ResultSet getABooking(int bookingId) {
         try {
