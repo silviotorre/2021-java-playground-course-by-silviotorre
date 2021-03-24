@@ -1,4 +1,4 @@
-package strategy;
+package stratepattern;
 
 import org.junit.jupiter.api.Test;
 
