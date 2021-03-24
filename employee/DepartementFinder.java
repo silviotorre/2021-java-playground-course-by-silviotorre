@@ -16,6 +16,6 @@
 
 public class DepartementFinder {
     public static void main(String[] args) {
-        
+        //business logic
     }
 }
