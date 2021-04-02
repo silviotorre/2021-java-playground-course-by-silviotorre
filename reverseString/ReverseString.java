@@ -52,6 +52,9 @@ public class ReverseString{
             }
             System.out.println("\n"+reverseString.toString().toUpperCase());
         }
+
+    public ReverseString() {
+    }
  
         
      
